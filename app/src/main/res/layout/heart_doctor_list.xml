@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="50dp"
+
+    app:cardBackgroundColor="#ffffff"
+    app:cardCornerRadius="30dp">
+
+    <ImageView
+        android:id="@+id/imageview12"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:elevation="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearance="@style/imageViewRounded" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Dr.Prathamesh Jadhav"
+        android:textColor="?attr/colorOnBackground"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/spl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="65dp"
+        android:fontFamily="@font/poppins_extrabold"
+
+        android:gravity="center"
+        android:paddingStart="55dp"
+        android:text="Heart Surgeon"
+        android:textColor="?attr/colorOnBackground"
+        android:textSize="15dp" />
+</androidx.cardview.widget.CardView>
+
+
